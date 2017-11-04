@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-void denarius_hash(const char* input, int inputlen, char* output);
+void denarius_hash(const char* input, char* output);
 
 #ifdef __cplusplus
 }
